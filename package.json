@@ -1,0 +1,31 @@
+{
+    "author": {
+        "name": "CD Cabrera",
+        "email": "cabrera.code@gmail.com",
+        "web": "https://github.com/cdcabrera/node-sinj"
+    },
+    "name": "sinj",
+    "description": "A dependency injector based on AngularJS' 1.X way of handling modules.",
+    "keywords": [
+        "dependency injection",
+        "angular"
+    ],
+    "license": "MIT",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cdcabrera/node-sinj"
+    },
+    "main": "./lib/sinj",
+    "files": [
+        "lib/"
+    ],
+    "scripts": {
+    },
+    "dependencies": {
+
+    },
+    "devDependencies": {
+
+    }
+}
