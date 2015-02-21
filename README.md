@@ -26,14 +26,14 @@ Create your app... pull all your modules in.
 
 ```javascript
 
-    require('sinj');
+require('sinj');
 
-    sinj
-        .module('namespace', {
-            'namespace.config':     './app/worker.config',
-            'namespace.worker':     './app/worker.dothethings',
-            'namespace.controller': './app/controller.awesome'
-        });
+sinj
+    .module('namespace', {
+        'namespace.config':     './app/worker.config',
+        'namespace.worker':     './app/worker.dothethings',
+        'namespace.controller': './app/controller.awesome'
+    });
 ```
 
 Create a worker/factory... reference the available "config" context and
