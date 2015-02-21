@@ -36,8 +36,8 @@ sinj
     });
 ```
 
-Create a worker/factory... reference the available "config" context and
-return available method(s). You can also include modules Node already contains.
+Create a config worker/factory... reference existing Node modules and
+return available properties.
 
 ```javascript
 
@@ -58,7 +58,7 @@ sinj
 
 
 Create a worker/factory... reference the available "config" context and
-return available method(s). You can also include modules Node already contains.
+return available method(s). You could also include modules Node already contains.
 
 ```javascript
 
@@ -79,7 +79,7 @@ sinj
 ```
 
 Create a controller... reference all available context, including the worker.
-You can also include modules Node already contains.
+You could also include modules Node already contains.
 
 ```javascript
 
