@@ -102,5 +102,5 @@ sinj
 My aspect is released under the [MIT License](http://en.wikipedia.org/wiki/MIT_License).
 
 My concept originated with [AngularJS](https://angularjs.org/), [MIT License](http://en.wikipedia.org/wiki/MIT_License).
-And I used the NPM module (injectr)[https://github.com/nathanmacinnes/injectr], [MIT License](http://opensource.org/licenses/MIT)
+And I used the NPM module [injectr](https://github.com/nathanmacinnes/injectr), [MIT License](http://opensource.org/licenses/MIT)
 as a basis for applying context.
