@@ -19,8 +19,8 @@ you've used AngularJS you should be able to recognize the module [layout pattern
 
 There is a noticeable difference in the use of an object instead of an array to
 pull in available modules. Instead the object provides a mechanism for loading and caching
-required modules while assigning them to required keys/ids similar to how AngularJS . These mechanics in turn provide
-the available scope/context for the loaded modules.
+required modules while assigning them to required keys/ids similar to how AngularJS pulls in resources.
+These mechanics in turn provide the available scope/context for the loaded modules.
 
 Create your app... pull all your modules in.
 
@@ -30,9 +30,9 @@ require('sinj');
 
 sinj
     .module('namespace', {
-        'namespace.config':     './app/worker.config',
+        'namespace.config':     './app/config',
         'namespace.worker':     './app/worker.dothethings',
-        'namespace.controller': './app/controller.awesome'
+        'namespace.controller': './app/controller'
     });
 ```
 
